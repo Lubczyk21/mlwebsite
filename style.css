@@ -1,0 +1,31 @@
+.body {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #1F2937;
+    height: 50px;
+}
+
+img {
+    flex-shrink: 1;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+
+ul {
+    display: flex;
+    flex-direction: ;
+    list-style: none;
+    gap: 16px;
+}
