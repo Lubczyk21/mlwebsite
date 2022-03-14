@@ -37,7 +37,7 @@ ul {
     align-self: center;
 }
 
-/* Second Part */
+/* First Part */
 
 .fir_section {
     display: flex;
@@ -85,3 +85,47 @@ button {
     width: 550px;
     height: 200px;
 }
+
+/* Second Part */
+
+.sec_section {
+    text-align: center;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.maintext {
+    font-size: 36px;
+    margin: 32px;
+    gap: 52px;
+    align-self: center;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.box {
+    max-width: 200px;
+}
+
+.text {
+    color: #1F2937;
+}
+
+.pictures {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 5px solid;
+    border-color: #3882F6;
+}
+
+/* Third Part */
+
+
