@@ -71,7 +71,7 @@ button {
     display: block;
     text-align: center;
     width: 110px;
-    border: none;
+    border-color: white;
     background: #3882f6;
     padding: 10px;
     border-radius: 8px;
@@ -128,4 +128,73 @@ button {
 
 /* Third Part */
 
+.third_section {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.739);
+    height: 400px;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.citation {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    align-self: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.who {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1F2937;
+    align-self: flex-end;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+/* Fourth part */
+
+.four_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5em 13em;
+}
+
+.container_blue {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 2em;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.left-text {
+    align-self: center;
+}
+
+.second_text {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+    color: white;
+}
+
+.title_text {
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer {
+    padding: 24px;
+    text-align: center;
+    color: black;
+    background-color: rgb(230, 250, 250);
+  }
