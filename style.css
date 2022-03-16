@@ -1,59 +1,60 @@
 .body {
     display: flex;
-    margin: 0;
-    padding: 0;
     font-family: Roboto, sans-serif;
     background-color: #FFFFFF;
 }
 
 /*header */
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    margin: 0;
-    padding: 30px 0px 30px 150px;
-    background-color: #1F2937;
-    height: 30px;
+header {
+    background-color: #1f2937;
+    padding: 0 10vw 5vw 10vw;
 }
 
-.header_logo img {
-    max-width: 100%;
-    max-height: 100%;
+.headere {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: 900;
+    color: #F9FAF8;
 }
 
 a {
     color: white;
     text-decoration: none;
+    font-size: 20px;
   }
 
 ul {
+    list-style-type: none;
     display: flex;
-    flex-direction: ;
-    list-style: none;
-    gap: 16px;
-    margin: 0;
-    padding-right: 150px;
-    align-self: center;
+    gap: 1.5em;
 }
 
 /* First Part */
 
 .fir_section {
     display: flex;
-    justify-content: center;
     background-color: #1F2937;
-    padding: 20px 150px 100px 150px;
+    margin: 0;
+    gap: 10px;
 }
 
 .left_first {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
+  
 }
 
 .hero_first {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     flex-wrap: wrap;
     color: #F9FAF8;
@@ -61,10 +62,12 @@ ul {
 
 .hero_second {
     margin-top: 10px;
-    font-size: 18px;
+    font-size: 20px;
     color: #E5E7EB;
     padding-right: 20px;
     padding-bottom: 20px;
+    max-width: 100%;
+
 }
 
 button {
@@ -81,23 +84,30 @@ button {
     font-weight: bold;
 }
 
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .right_hero img{
-    width: 550px;
+    width: 700px;
     height: 200px;
+    border-radius: 15px;
 }
 
 /* Second Part */
 
 .sec_section {
     text-align: center;
-    height: 400px;
     margin-top: 50px;
 }
 
 .container {
     display: flex;
     justify-content: center;
-    gap: 52px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 3em 0 6em 0;
 }
 
 .maintext {
@@ -130,10 +140,10 @@ button {
 
 .third_section {
     display: flex;
-    background-color: rgba(128, 128, 128, 0.739);
-    height: 400px;
-    justify-content: center;
     flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    padding: 7em 13em;
 }
 
 .citation {
